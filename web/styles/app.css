@@ -1,0 +1,35 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app > h1 {
+  color: #996dff;
+  margin-top: -5px;
+}
+
+#app > h2 {
+  align-self: flex-start;
+  margin-top: 104px;
+}
+#app > p {
+  align-self: flex-start;
+  width: 512px;
+  text-align: justify;
+}
+
+#app > img {
+  width: 64px;
+}
+
+body,
+button,
+input {
+  font-family: "Roboto", sans-serif;
+}
+
+#app .placeholder{
+  color: #7c7c8a;
+  user-select: none;
+}
